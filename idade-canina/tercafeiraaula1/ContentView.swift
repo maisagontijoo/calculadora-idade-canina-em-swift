@@ -10,6 +10,11 @@ struct ContentView: View {
                 .ignoresSafeArea()
             
             VStack(spacing: 20) {
+                Image("cachorro")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 150)
+                
                 Text("Calculadora de Idade Canina")
                     .font(.title)
                     .fontWeight(.bold)
